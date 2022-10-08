@@ -1,0 +1,35 @@
+{
+	"TypeScript React Function Component": {
+		"prefix": "rc",
+		"scope": "typescriptreact",
+		"body": [
+			"import React from 'react'",
+			"",
+			"interface ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}Props {",
+			"}",
+			"",
+			"const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}: React.FC<${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}Props> = () => {",
+			"  return (",
+			"    <div>${1:first}</div>",
+			"  )",
+			"}",
+			"",
+			"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}",
+		]
+	},
+	"JavaScript React Function Component": {
+		"prefix": "rc",
+		"scope": "javascript,javascriptreact",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}} = () => {",
+			"  return (",
+			"    <div>${1:first}</div>",
+			"  )",
+			"}",
+			"",
+			"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}",
+		]
+	}
+}

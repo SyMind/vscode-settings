@@ -1,2 +1,4 @@
-# vscode-settings
-My VS Code settings and extensions
+<samp><b>SyMind's VS Code Settings</b></samp>
+
+[`.vscode/global.code-snippets`](./.vscode/global.code-snippets)
+
